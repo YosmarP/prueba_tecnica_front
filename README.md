@@ -23,7 +23,7 @@ Se implementó el **enrutamiento** utilizando AngularJS para manejar la navegaci
 Se utilizan variables de entorno para almacenar la dirección de la API. Asegúrate de crear un archivo `environment.js` en la carpeta `config` 
 
 ### Optimización y Mejores Prácticas
-Se siguieron las **mejores prácticas** en la escritura de código, incluyendo la organización del código, la modularidad y el uso de **linters** para asegurar la calidad del código.
+Se siguieron las **mejores prácticas** en la escritura de código, incluyendo la organización del código y la modularidad para asegurar la calidad del código.
 
 ### Despliegue
 La aplicación está diseñada para ser fácilmente desplegable en servidores web, con rutas bien definidas y recursos organizados, lo que facilita su mantenimiento y escalabilidad.
