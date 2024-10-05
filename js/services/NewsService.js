@@ -3,7 +3,7 @@ app.factory('NewsService', function($http, ENV) {
 
     return {
         getNewsByPage: function(page) {
-            return $http.get(baseUrl + '/news?archive=false&page=' + page + '&limit=30');
+            return $http.get(baseUrl + '/news?page=' + page + '&limit=30');
         },
         getArchivedNewsByPage: function(page) {
             return $http.get(baseUrl + '/news/archived?page=' + page + '&limit=30');
