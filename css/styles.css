@@ -1,0 +1,55 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    color: #343a40; /* Color de texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    margin-top: 20px;
+}
+
+
+/* Estilo para la tarjeta */
+.card {
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card:hover {
+    transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+}
+
+/* Estilo para el cuerpo de la tarjeta */
+.card-body {
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el título de la tarjeta */
+.card-title {
+    font-size: 1.25rem; /* Tamaño de fuente del título */
+    color: #343a40; /* Color del título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+/* Estilo para el texto de la tarjeta */
+.card-text {
+    color: #495057; /* Color del texto */
+    margin-bottom: 8px; /* Espacio debajo del texto */
+}
+
+/* Estilo para el botón cargar más */
+.btn-secondary{
+    margin-bottom: 14px;
+}
+
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="newsApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body ng-controller="NewsController as ctrl">
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+
+    <!-- Archivos JS -->
+    <script src="js/app.js"></script>
+    <script src="js/config/environment.js"></script>
+    <script src="js/controllers/NewsController.js"></script>
+    <script src="js/services/NewsService.js"></script>
+
+    <!-- Importar componentes -->
+    <script src="js/components/newsToggleButton.component.js"></script>
+    <script src="js/components/newsItem.component.js"></script>
+
+    <!-- Importar directivas -->
+    <script src="js/directives/loadingMessage.js"></script> 
+    <script src="js/directives/loadMoreButton.js"></script> 
+
+</body>
+</html>

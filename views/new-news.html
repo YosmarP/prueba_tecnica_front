@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Nuevas Noticias</h2>
+
+        <news-toggle-button></news-toggle-button>
+        
+        <!-- Lista de noticias nuevas -->       
+        <news-item 
+            ng-repeat="newsItem in newNews" 
+            news-item="newsItem" 
+            on-action="archiveNews(newsId)" 
+            action-label="Archivar" 
+            action-class="btn-primary">
+        </news-item>
+
+        <!-- Mensaje de carga -->
+        <loading-message visible="loading"></loading-message>
+
+        <!-- Botón para cargar más noticias -->
+        <load-more-button 
+            on-click="loadNewNews()" 
+            is-loading="loading" 
+            current-page="currentPage" 
+            total-pages="totalPages">
+        </load-more-button>
+    </div>
+</div>
